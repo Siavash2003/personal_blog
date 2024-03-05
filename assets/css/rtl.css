@@ -1,0 +1,260 @@
+/*rtl mellatweb*/
+
+@font-face {
+
+	font-family: iranyekan;
+	font-style: normal;
+
+	font-weight: bold;
+
+	src: url('fonts/eot/iranyekanwebbold.eot');
+
+	src: url('fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanwebbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+
+}
+@font-face {
+
+	font-family: iranyekan;
+
+	font-style: normal;
+
+	font-weight: 300;
+
+	src: url('fonts/eot/iranyekanweblight.eot');
+
+	src: url('fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanweblight.ttf') format('truetype');
+
+}
+@font-face {
+
+	font-family: iranyekan;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	src: url('fonts/eot/iranyekanwebregular.eot');
+
+	src: url('fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+
+}
+
+@font-face {
+
+	font-family: iranyekan;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	src: url('fonts/eot/iranyekanwebbold(fanum).eot');
+
+	src: url('fonts/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanwebbold(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+
+}
+@font-face {
+
+	font-family: iranyekan;
+
+	font-style: normal;
+
+	font-weight: 300;
+
+	src: url('fonts/eot/iranyekanweblight(fanum).eot');
+
+	src: url('fonts/eot/iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanweblight(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanweblight(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanweblight(fanum).ttf') format('truetype');
+
+}
+@font-face {
+
+	font-family: iranyekan;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	src: url('fonts/eot/iranyekanwebregular(fanum).eot');
+
+	src: url('fonts/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+
+		 url('fonts/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+
+		 url('fonts/woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+		 url('fonts/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+
+}
+.owl-carousel.owl-loaded {
+    direction: ltr;
+}
+/**IranYekan>>*/  a,body,h1,h2,h3,h4,h5,h6,p,.button, button, input, textarea,.pricing-table .title,.site-title  {font-family:iranyekan! important; direction: rtl;}
+.site-title-block {
+    float: right;
+}
+.site-nav {
+    float: left;
+}
+.site-main-menu li {
+    float: right;
+}
+.site-main-menu li:last-child a {
+    margin-left: 0;
+    margin-right: 20px;
+}
+@media (min-width: 1200px){
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right;
+}}
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}}
+.info-list li {
+    text-align: right;
+}
+.timeline {
+    border-right: 2px solid #e0e0e0;
+    border-left: 0;
+}
+.timeline-item {
+    margin-right: 20px;
+    margin-left: 0;
+    border-right: 2px solid #29B6F6;
+    border-left: 0;
+}
+.timeline-item:before {
+    right: -29px;
+    left: auto;
+}
+.timeline-item:after {
+    right: -29px;
+    left: auto;
+}
+.timeline-item .item-small {
+    margin-right: 5px;
+    margin-left: 0;
+    padding-right: 8px;
+    padding-left: 0;
+    border-right: 1px solid #e0e0e0;
+    border-left: 0;
+}
+.testimonial-author-info {
+    padding-right: 12px;
+    padding-left: 0;
+    text-align: right;
+}
+.testimonial-credits {
+    direction: rtl;
+}
+.portfolio-grid figure a div i {
+    left: 20px;
+    right: auto;
+}
+.portfolio-grid figure a div small {
+    right: 20px;
+    left: auto;
+}
+blockquote {
+    border-right: 3px solid #29B6F6;
+    border-left: 0;
+}
+.pull-right {
+    float: left !important;
+}
+.pull-left {
+    float: right !important;
+}
+.media-left, .media > .pull-left {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.form-group-with-icon i {
+    right: 0;
+    left: auto;
+}
+
+
+.form-group-with-icon {
+    padding-right: 40px;
+    padding-left: 0;
+}
+.form-group-with-icon label {
+    right: 52px;
+    left: auto;
+}
+.form-group-with-icon .form-control {
+    padding-right: 12px;
+    padding-left: 0;
+    direction: rtl;
+}
+.form-control, .form-control:focus, .has-error .form-control, .has-error .form-control:focus {
+    text-align: right;
+}
+.contact-info-block {
+    text-align: right;
+    padding: 10px 0px 10px 10px;
+}
+.ci-text {
+    padding-right: 50px;
+    padding-left: 0;
+}
+.blog-card .post-date {
+    left: 1em;
+    right: auto;
+}
+.project-general-info .fa {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.ajax-page-nav {
+    text-align: left;
+    direction: ltr;
+}
+@media only screen and (max-width: 991px){
+.mobile-site-title {
+    float: right;
+    font-family: inherit;
+}}
+.menu-toggle {
+    float: left;
+}
+@media only screen and (max-width: 991px){
+.site-main-menu li a, .site-main-menu li a:hover {
+    margin: 0 !important;
+}}
+@media only screen and (max-width: 991px){
+.header {
+    left: 0;
+    right: auto;
+}}
